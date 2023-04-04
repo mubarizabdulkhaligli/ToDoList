@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 840px;
+}
+.list-box{
+border-bottom: 2px yellow solid;
+padding: 20px;
+margin: 20px auto;
+}

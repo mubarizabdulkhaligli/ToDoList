@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box bg-black p-3">
+        <h1 class="text-warning text-center">TO DO LIST</h1>
+        <div class="form col-lg-6 mx-auto mt-4 text-center">
+          <input class="form-control" type="text" placeholder="Add task..." />
+          <button class="btn btn-warning w-75 mt-4 fs-4 fw-bold rounded-5">
+            <i class="fa-solid fa-plus"></i> Add Task
+          </button>
+        </div>
+
+        <div
+          class="alert alert-warning m-3 w-25 mx-auto text-center fs-4 d-none"
+          role="alert"
+        >
+          Task added.
+        </div>
+
+        <div class="info-box col-lg-6 mx-auto mt-4 text-center">
+          <h5 class="text-white">To do list is empty</h5>
+        </div>
+        <div class="task-count d-none col-lg-6 mx-auto mt-4 text-center"></div>
+
+        <div class="list col-lg-6 mx-auto mt-4 text-warning fs-4"></div>
+      </div>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
